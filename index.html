@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/img/icono.png">
+    <title>Jesús Franco</title>
+</head>
+
+<body>
+    <header>
+        <img class="avatar" src="../img/avatar.jpg" alt="" />
+        <p>
+            Jesús Franco <br /> Desarrollador web
+        </p>
+    </header>
+
+    <!--MENU DE LA PAGINA-->
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="https://github.com/Llellesito/Trabajo-final" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <!--MENU DE TEMAS-->
+    <nav id="temas">
+        <ul>
+            <li onclick="temaPorDefecto()">Tema predeterminado</li>
+            <li onclick="cambiarFondoHtml()">Tema oscuro</li>
+            <li onclick="cambiarFondoHtmlAleatorio()">Tema aleatorio</li>
+        </ul>
+    </nav>
+
+    <!--CONTENIDO DE LA PAGINA-->
+    <div class="contenido">
+
+        <button class="botonDatos" onclick="pedirDatos()">Ingresar Nombre y Edad</button>
+
+        <!--SOBRE MI-->
+        <h1 id="sobre-mi">Sobre mí</h1>
+        <p>Soy Jesús Franco, actualmente tengo 20 años, y soy un <b>desarrollador web principiante</b>, pero, destaco en
+            lo
+            siguiente:</p>
+        <ul>
+            <li>Aprendo relativamente <u>rápido</u>.</li>
+            <li>Suelo <u>adaptarme sin mucho problema</u> a cualquier situación que se presente.</li>
+            <li>No tengo problemas con <u>aprender nuevas cosas</u>.</li>
+        </ul>
+        <hr>
+
+        <!--EXPERIENCIA CON LENGUAJES DE MARCAS-->
+        <h1 id="experiencia">Experiencia</h1>
+        <p>Tengo experiencia con los diferentes lenguajes de marcas y de programación como son:</p>
+        <ul>
+            <i>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>XML</li>
+                <li>DTD</li>
+                <li>XSL</li>
+            </i>
+        </ul>
+        <table>
+            <tr>
+                <td><img src="/img/html.png" alt=""></td>
+                <td><img src="/img/css.png" alt=""></td>
+                <td><img src="/img/js.png" alt=""></td>
+            </tr>
+            <tr>
+                <td><img src="/img/xml.png" alt=""></td>
+                <td><img src="/img/dtd.png" alt=""></td>
+                <td><img src="/img/xsl.png" alt=""></td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <!--PROYECTOS DE LA PAGINA-->
+        <h1 id="proyectos">Proyectos</h1>
+        <a href="datos.xml"><img class="juego_img" src="img/proyectos.png"></a>
+
+        <hr>
+
+        <!--SECCION DE CONTACTO-->
+        <h1 id="contacto">Contacto</h1>
+
+        <form id="form-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" /><br />
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" /><br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" /><br />
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" /><br /><br />
+
+            <input type="submit" value="Enviar" />
+        </form>
+        <hr>
+        <footer>
+            <h1>&copy; 2025 Página realizada por Jesús Franco.</h1>
+            <h2>Trabajo Final de lenguaje de marcas</h2>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
