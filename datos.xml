@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proyectos SYSTEM "datos.dtd">
+<?xml-stylesheet type="text/xsl" href="estilo.xsl"?>
+<proyectos>
+    <proyecto id="p1" fecha="2024-05-24" estado="en_desarrollo">
+        <nombre>Portfolio Web</nombre>
+        <descripcion>Sitio web desarrollado con el objetivo de funcionar como portafolio
+            profesional, en el que se recopilan y presentan los proyectos en los que he trabajado.
+            Su finalidad es permitir a empresas y clientes potenciales evaluar mis competencias
+            técnicas y considerar mi perfil para futuras oportunidades laborales.</descripcion>
+        <enlace>index.html</enlace>
+        <nota />
+    </proyecto>
+    <proyecto id="p2" fecha="2024-05-24" estado="completado">
+        <nombre>Mini-Games</nombre>
+        <descripcion>Aplicación web compuesta por una colección de minijuegos desarrollados con
+            tecnologías frontend como HTML, CSS y JavaScript. Incluye ejemplos interactivos como
+            juegos de adivinación de números, y más variedad disponible en el futuro. Aún en
+            desarrollo.</descripcion>
+        <enlace>juego.html</enlace>
+        <nota />
+    </proyecto>
+</proyectos>
